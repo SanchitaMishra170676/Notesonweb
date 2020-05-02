@@ -3,37 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <title>Notes On WEb</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="css/styles.css">
+<title>Notes On Web</title>
 </head>
 <body>
+
   <!-- Navbar starts Here -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="#"><i class=" fas fa-book-open fa-lg"></i> NotesOnWeb</a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-      </div>
-  </nav>
-  <!-- header -->
-  <div class="container">
-    <h1> this is for information and please plan for here</h1>
-  </div>
+
+
+  <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+               <span class="navbar-toggler-icon"></span>
+           </button>
+           <!-- Add logo image in src -->
+           <a class="navbar-brand mr-auto" href="#"><img src="" height="30" width="41"></a>
+
+           <div class="collapse navbar-collapse" id="Navbar">
+
+
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active"><a class="nav-link" href="#">    <span class="fa fa-home fa-lg"></span> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" tabindex="-1" aria-disabled="true" ><span class="fa fa-address-card fa-lg"></span> feedback</a></li>
+                </ul>
+
+
+             </div>
+        </div>
+    </nav>
+
+  <!-- jumbotron here -->
+    <header class="jumbotron row-header">
+        <div class="container">
+            <div class ="row">
+                <div class="col-12 col-sm-6 ">
+                    <h1>Notes On Web</h1>
+                    <p>Confused, from where to get the study material? Here you go!</p>
+                </div>
+                <div class="col-12 col-sm-3 align-self-center">
+                  <!-- Add logo in src -->
+                   <img src="" class="img-fluid">
+               </div>
+            </div>
+        </div>
+    </header>
+
   <!-- Subject Cards -->
-  <section>
+  <section class="main-bg">
     <div class="bg-light p-5">
       <div class="row">
         <h1>Btech 1st Year (Common Subjects)</h1>
@@ -116,6 +136,45 @@
       </div>
     </div>
   </section>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
+
+  <!-- Footer here -->
+
+      <footer class="footer">
+          <div class="container">
+
+             <div class="row  justify-content-center">
+                  <div class="col-auto align-items-center">
+                    <div class="text-center">
+                      <h5>Contributors</h5>
+                      <ul class="list-unstyled">
+                          <li> Prashant Gupta:<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/prashant-gupta-b98543190/"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-social-icon" href="mailto:iemprashant14@gmail.com"><i class="fa fa-envelope-o"></i></a>
+                          </li>
+                          <li> Sanchita Mishra:<a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/sanchita-mishra-1st-1b622a196/"><i class="fa fa-linkedin"></i></a>
+                            <a class="btn btn-social-icon" href="mailto:sanchitamishra170676@gmail.com"><i class="fa fa-envelope-o"></i></a>
+                          </li>
+                          </ul>
+                        </div>
+                  </div>
+             </div>
+             <div class="col-4 col-sm-2">
+
+             </div>
+             </div>
+      </footer>
+  <!-- build:js js.main/js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script></body>
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/b605b6abff.js"></script>
 </html>
